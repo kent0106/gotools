@@ -2,6 +2,8 @@ module github.com/kent0106/gotools
 
 go 1.14
 
+replace github.com/kent0106/gotools => golang.org/x/tools v0.1.6
+
 require (
 	github.com/yuin/goldmark v1.4.0
 	golang.org/x/mod v0.4.2
