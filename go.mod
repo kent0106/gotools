@@ -1,6 +1,6 @@
 module github.com/kent0106/gotools
 
-go 1.17
+go 1.14
 
 require (
 	github.com/yuin/goldmark v1.4.0
