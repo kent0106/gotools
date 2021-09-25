@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 
 	"golang.org/x/mod/modfile"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/kent0106/gotools/internal/lsp/command"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/lsp/source"
+	"github.com/kent0106/gotools/internal/span"
 )
 
 // LensFuncs returns the supported lensFuncs for go.mod files.

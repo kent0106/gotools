@@ -7,8 +7,8 @@ package simplifyrange_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/internal/lsp/analysis/simplifyrange"
+	"github.com/kent0106/gotools/go/analysis/analysistest"
+	"github.com/kent0106/gotools/internal/lsp/analysis/simplifyrange"
 )
 
 func Test(t *testing.T) {

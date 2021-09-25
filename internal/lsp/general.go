@@ -14,12 +14,12 @@ import (
 	"path/filepath"
 	"sync"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/jsonrpc2"
+	"github.com/kent0106/gotools/internal/lsp/debug"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/lsp/source"
+	"github.com/kent0106/gotools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 
@@ -103,7 +103,7 @@ func (s *Server) initialize(ctx context.Context, params *protocol.ParamInitializ
 		if dep.Path == "github.com/sergi/go-diff" && dep.Version == "v1.2.0" {
 			if err := s.eventuallyShowMessage(ctx, &protocol.ShowMessageParams{
 				Message: `It looks like you have a bad gopls installation.
-Please reinstall gopls by running 'GO111MODULE=on go get golang.org/x/tools/gopls@latest'.
+Please reinstall gopls by running 'GO111MODULE=on go get github.com/kent0106/gotools/gopls@latest'.
 See https://github.com/golang/go/issues/45732 for more information.`,
 				Type: protocol.Error,
 			}); err != nil {

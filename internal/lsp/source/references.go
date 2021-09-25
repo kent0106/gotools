@@ -12,9 +12,9 @@ import (
 	"go/types"
 	"sort"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 

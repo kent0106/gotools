@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"sort"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kent0106/gotools/internal/typeparams"
 )
 
 // Current bundled export format version. Increase with each format change.

@@ -16,7 +16,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/internal/gocommand"
+	"github.com/kent0106/gotools/internal/gocommand"
 )
 
 // processGolistOverlay provides rudimentary support for adding

@@ -1,7 +1,7 @@
 package good //@diag("package", "no_diagnostics", "", "error")
 
 import (
-	"golang.org/x/tools/internal/lsp/types" //@item(types_import, "types", "\"golang.org/x/tools/internal/lsp/types\"", "package")
+	"github.com/kent0106/gotools/internal/lsp/types" //@item(types_import, "types", "\"github.com/kent0106/gotools/internal/lsp/types\"", "package")
 )
 
 func random() int { //@item(good_random, "random", "func() int", "func")

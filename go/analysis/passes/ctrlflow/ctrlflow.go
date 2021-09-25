@@ -14,11 +14,11 @@ import (
 	"log"
 	"reflect"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/go/cfg"
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/kent0106/gotools/go/analysis"
+	"github.com/kent0106/gotools/go/analysis/passes/inspect"
+	"github.com/kent0106/gotools/go/ast/inspector"
+	"github.com/kent0106/gotools/go/cfg"
+	"github.com/kent0106/gotools/go/types/typeutil"
 )
 
 var Analyzer = &analysis.Analyzer{

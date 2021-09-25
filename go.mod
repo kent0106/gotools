@@ -1,4 +1,4 @@
-module golang.org/x/tools
+module github.com/kent0106/gotools
 
 go 1.17
 

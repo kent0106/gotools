@@ -7,8 +7,8 @@ package fillstruct_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/internal/lsp/analysis/fillstruct"
+	"github.com/kent0106/gotools/go/analysis/analysistest"
+	"github.com/kent0106/gotools/internal/lsp/analysis/fillstruct"
 )
 
 func Test(t *testing.T) {

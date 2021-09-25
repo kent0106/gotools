@@ -7,8 +7,8 @@ package misc
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/internal/lsp/regtest"
+	"github.com/kent0106/gotools/gopls/internal/hooks"
+	"github.com/kent0106/gotools/internal/lsp/regtest"
 )
 
 func TestMain(m *testing.M) {

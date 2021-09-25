@@ -14,12 +14,12 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/refactor/satisfy"
+	"github.com/kent0106/gotools/go/types/typeutil"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/lsp/diff"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/span"
+	"github.com/kent0106/gotools/refactor/satisfy"
 	errors "golang.org/x/xerrors"
 )
 

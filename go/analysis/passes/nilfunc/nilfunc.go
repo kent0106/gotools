@@ -11,9 +11,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/kent0106/gotools/go/analysis"
+	"github.com/kent0106/gotools/go/analysis/passes/inspect"
+	"github.com/kent0106/gotools/go/ast/inspector"
 )
 
 const Doc = `check for useless comparisons between functions and nil

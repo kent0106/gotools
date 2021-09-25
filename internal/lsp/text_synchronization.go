@@ -11,12 +11,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/jsonrpc2"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/lsp/source"
+	"github.com/kent0106/gotools/internal/span"
+	"github.com/kent0106/gotools/internal/xcontext"
 	errors "golang.org/x/xerrors"
 )
 

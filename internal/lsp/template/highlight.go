@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/lsp/source"
 )
 
 func Highlight(ctx context.Context, snapshot source.Snapshot, fh source.FileHandle, loc protocol.Position) ([]protocol.DocumentHighlight, error) {

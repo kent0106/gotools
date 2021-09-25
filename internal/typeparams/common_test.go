@@ -8,7 +8,7 @@ import (
 	"go/ast"
 	"testing"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kent0106/gotools/internal/typeparams"
 )
 
 func TestGetIndexExprData(t *testing.T) {

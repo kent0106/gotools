@@ -15,7 +15,7 @@ import (
 	"context"
 	"fmt"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
 )
 
 const (

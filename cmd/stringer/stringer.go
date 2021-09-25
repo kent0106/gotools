@@ -63,7 +63,7 @@
 //	PillAspirin // Aspirin
 //
 // to suppress it in the output.
-package main // import "golang.org/x/tools/cmd/stringer"
+package main // import "github.com/kent0106/gotools/cmd/stringer"
 
 import (
 	"bytes"
@@ -81,7 +81,7 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/go/packages"
+	"github.com/kent0106/gotools/go/packages"
 )
 
 var (
@@ -98,7 +98,7 @@ func Usage() {
 	fmt.Fprintf(os.Stderr, "\tstringer [flags] -type T [directory]\n")
 	fmt.Fprintf(os.Stderr, "\tstringer [flags] -type T files... # Must be a single package\n")
 	fmt.Fprintf(os.Stderr, "For more information, see:\n")
-	fmt.Fprintf(os.Stderr, "\thttps://pkg.go.dev/golang.org/x/tools/cmd/stringer\n")
+	fmt.Fprintf(os.Stderr, "\thttps://pkg.go.dev/github.com/kent0106/gotools/cmd/stringer\n")
 	fmt.Fprintf(os.Stderr, "Flags:\n")
 	flag.PrintDefaults()
 }

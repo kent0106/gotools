@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	difflib "golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/diff/myers"
-	"golang.org/x/tools/internal/lsp/source"
+	difflib "github.com/kent0106/gotools/internal/lsp/diff"
+	"github.com/kent0106/gotools/internal/lsp/diff/myers"
+	"github.com/kent0106/gotools/internal/lsp/source"
 )
 
 var (
@@ -154,7 +154,7 @@ func loadAPI(version string) (*source.APIJSON, error) {
 	}
 	cmd := exec.Cmd{
 		Path: goCmd,
-		Args: []string{"go", "get", fmt.Sprintf("golang.org/x/tools/gopls@%s", version)},
+		Args: []string{"go", "get", fmt.Sprintf("github.com/kent0106/gotools/gopls@%s", version)},
 		Dir:  dir,
 		Env:  append(os.Environ(), fmt.Sprintf("GOPATH=%s", dir)),
 	}

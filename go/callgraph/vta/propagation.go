@@ -7,9 +7,9 @@ package vta
 import (
 	"go/types"
 
-	"golang.org/x/tools/go/ssa"
+	"github.com/kent0106/gotools/go/ssa"
 
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/kent0106/gotools/go/types/typeutil"
 )
 
 // scc computes strongly connected components (SCCs) of `g` using the

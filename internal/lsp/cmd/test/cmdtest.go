@@ -14,16 +14,16 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/tools/internal/jsonrpc2/servertest"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/cmd"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/lsprpc"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/tool"
+	"github.com/kent0106/gotools/internal/jsonrpc2/servertest"
+	"github.com/kent0106/gotools/internal/lsp/cache"
+	"github.com/kent0106/gotools/internal/lsp/cmd"
+	"github.com/kent0106/gotools/internal/lsp/debug"
+	"github.com/kent0106/gotools/internal/lsp/lsprpc"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/lsp/source"
+	"github.com/kent0106/gotools/internal/lsp/tests"
+	"github.com/kent0106/gotools/internal/span"
+	"github.com/kent0106/gotools/internal/tool"
 )
 
 type runner struct {

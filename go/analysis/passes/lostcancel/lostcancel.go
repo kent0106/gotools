@@ -11,11 +11,11 @@ import (
 	"go/ast"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/ctrlflow"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/go/cfg"
+	"github.com/kent0106/gotools/go/analysis"
+	"github.com/kent0106/gotools/go/analysis/passes/ctrlflow"
+	"github.com/kent0106/gotools/go/analysis/passes/inspect"
+	"github.com/kent0106/gotools/go/ast/inspector"
+	"github.com/kent0106/gotools/go/cfg"
 )
 
 const Doc = `check cancel func returned by context.WithCancel is called

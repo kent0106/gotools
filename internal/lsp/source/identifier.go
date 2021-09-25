@@ -14,11 +14,11 @@ import (
 	"sort"
 	"strconv"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kent0106/gotools/go/ast/astutil"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/span"
+	"github.com/kent0106/gotools/internal/typeparams"
 	errors "golang.org/x/xerrors"
 )
 

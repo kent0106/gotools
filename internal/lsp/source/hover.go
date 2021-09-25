@@ -20,9 +20,9 @@ import (
 	"unicode/utf8"
 
 	"golang.org/x/text/unicode/runenames"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/typeparams"
 	errors "golang.org/x/xerrors"
 )
 

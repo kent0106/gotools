@@ -12,8 +12,8 @@ import (
 	"log"
 	"os"
 
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/lsprpc"
+	"github.com/kent0106/gotools/internal/lsp/command"
+	"github.com/kent0106/gotools/internal/lsp/lsprpc"
 	errors "golang.org/x/xerrors"
 )
 

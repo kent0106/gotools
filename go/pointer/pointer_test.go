@@ -26,13 +26,13 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/pointer"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kent0106/gotools/go/callgraph"
+	"github.com/kent0106/gotools/go/loader"
+	"github.com/kent0106/gotools/go/pointer"
+	"github.com/kent0106/gotools/go/ssa"
+	"github.com/kent0106/gotools/go/ssa/ssautil"
+	"github.com/kent0106/gotools/go/types/typeutil"
+	"github.com/kent0106/gotools/internal/testenv"
 )
 
 var inputs = []string{

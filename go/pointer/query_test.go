@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/tools/go/loader"
+	"github.com/kent0106/gotools/go/loader"
 )
 
 func TestParseExtendedQuery(t *testing.T) {

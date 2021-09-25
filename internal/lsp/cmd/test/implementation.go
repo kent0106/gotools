@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"golang.org/x/tools/internal/span"
+	"github.com/kent0106/gotools/internal/span"
 )
 
 func (r *runner) Implementation(t *testing.T, spn span.Span, imps []span.Span) {

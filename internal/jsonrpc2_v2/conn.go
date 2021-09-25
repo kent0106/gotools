@@ -11,9 +11,9 @@ import (
 	"io"
 	"sync/atomic"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/label"
-	"golang.org/x/tools/internal/lsp/debug/tag"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/event/label"
+	"github.com/kent0106/gotools/internal/lsp/debug/tag"
 	errors "golang.org/x/xerrors"
 )
 

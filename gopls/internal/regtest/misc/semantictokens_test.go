@@ -7,8 +7,8 @@ package misc
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	. "golang.org/x/tools/internal/lsp/regtest"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	. "github.com/kent0106/gotools/internal/lsp/regtest"
 )
 
 func TestBadURICrash_VSCodeIssue1498(t *testing.T) {

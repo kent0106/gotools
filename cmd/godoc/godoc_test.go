@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kent0106/gotools/go/packages/packagestest"
+	"github.com/kent0106/gotools/internal/testenv"
 )
 
 // buildGodoc builds the godoc executable.

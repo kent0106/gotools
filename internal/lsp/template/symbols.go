@@ -11,9 +11,9 @@ import (
 	"text/template/parse"
 	"unicode/utf8"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/lsp/source"
 )
 
 // in local coordinates, to be translated to protocol.DocumentSymbol

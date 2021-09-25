@@ -1,6 +1,6 @@
 # Go Tools
 
-[![PkgGoDev](https://pkg.go.dev/badge/golang.org/x/tools)](https://pkg.go.dev/golang.org/x/tools)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/kent0106/gotools)](https://pkg.go.dev/github.com/kent0106/gotools)
 
 This subrepository holds the source for various packages and tools that support
 the Go programming language.
@@ -16,8 +16,8 @@ Static Single Assignment form (SSA) representation for Go programs.
 
 ## Download/Install
 
-The easiest way to install is to run `go get -u golang.org/x/tools/...`. You can
-also manually git clone the repository to `$GOPATH/src/golang.org/x/tools`.
+The easiest way to install is to run `go get -u github.com/kent0106/gotools/...`. You can
+also manually git clone the repository to `$GOPATH/src/github.com/kent0106/gotools`.
 
 ## JS/CSS Formatting
 

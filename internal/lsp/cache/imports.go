@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/keys"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/event/keys"
+	"github.com/kent0106/gotools/internal/gocommand"
+	"github.com/kent0106/gotools/internal/imports"
+	"github.com/kent0106/gotools/internal/lsp/source"
 )
 
 type importsState struct {

@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"io"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/jsonrpc2"
-	jsonrpc2_v2 "golang.org/x/tools/internal/jsonrpc2_v2"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/jsonrpc2"
+	jsonrpc2_v2 "github.com/kent0106/gotools/internal/jsonrpc2_v2"
+	"github.com/kent0106/gotools/internal/xcontext"
 	errors "golang.org/x/xerrors"
 )
 

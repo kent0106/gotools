@@ -15,10 +15,10 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"golang.org/x/tools/cmd/guru/serial"
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/kent0106/gotools/cmd/guru/serial"
+	"github.com/kent0106/gotools/go/ast/astutil"
+	"github.com/kent0106/gotools/go/loader"
+	"github.com/kent0106/gotools/go/types/typeutil"
 )
 
 // describe describes the syntax node denoted by the query position,

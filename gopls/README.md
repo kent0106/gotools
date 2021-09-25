@@ -1,6 +1,6 @@
 # `gopls`, the Go language server
 
-[![PkgGoDev](https://pkg.go.dev/badge/golang.org/x/tools/gopls)](https://pkg.go.dev/golang.org/x/tools/gopls)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/kent0106/gotools/gopls)](https://pkg.go.dev/github.com/kent0106/gotools/gopls)
 
 `gopls` (pronounced "Go please") is the official Go [language server] developed
 by the Go team. It provides IDE features to any [LSP]-compatible editor.
@@ -36,7 +36,7 @@ directory that is both outside of your `GOPATH` and outside of a module (a temp
 directory is fine), and run:
 
 ```sh
-GO111MODULE=on go get golang.org/x/tools/gopls@latest
+GO111MODULE=on go get github.com/kent0106/gotools/gopls@latest
 ```
 
 **NOTE**: Do not use the `-u` flag, as it will update your dependencies to

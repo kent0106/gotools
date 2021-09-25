@@ -16,8 +16,8 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/pointer"
-	"golang.org/x/tools/go/ssa"
+	"github.com/kent0106/gotools/go/pointer"
+	"github.com/kent0106/gotools/go/ssa"
 )
 
 func (a *analysis) doChannelPeers(ptsets map[ssa.Value]pointer.Pointer) {

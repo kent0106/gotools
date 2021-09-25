@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"sort"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/tool"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/span"
+	"github.com/kent0106/gotools/internal/tool"
 )
 
 // symbols implements the symbols verb for gopls

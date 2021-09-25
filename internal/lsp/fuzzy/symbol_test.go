@@ -7,7 +7,7 @@ package fuzzy_test
 import (
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/fuzzy"
+	. "github.com/kent0106/gotools/internal/lsp/fuzzy"
 )
 
 func TestSymbolMatchIndex(t *testing.T) {

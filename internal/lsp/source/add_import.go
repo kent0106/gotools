@@ -7,8 +7,8 @@ package source
 import (
 	"context"
 
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/imports"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
 )
 
 // AddImport adds a single import statement to the given file

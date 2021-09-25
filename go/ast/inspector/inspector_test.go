@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/kent0106/gotools/go/ast/inspector"
 )
 
 var netFiles []*ast.File

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/regtest"
+	. "github.com/kent0106/gotools/internal/lsp/regtest"
 )
 
 func TestIssue44866(t *testing.T) {

@@ -9,7 +9,7 @@ To get a specific version of `gopls` (for example, to test a prerelease
 version), run:
 
 ```sh
-GO111MODULE=on go get golang.org/x/tools/gopls@vX.Y.Z
+GO111MODULE=on go get github.com/kent0106/gotools/gopls@vX.Y.Z
 ```
 
 Where `vX.Y.Z` is the desired version.
@@ -19,7 +19,7 @@ Where `vX.Y.Z` is the desired version.
 To update `gopls` to the latest **unstable** version, use:
 
 ```sh
-GO111MODULE=on go get golang.org/x/tools/gopls@master golang.org/x/tools@master
+GO111MODULE=on go get github.com/kent0106/gotools/gopls@master github.com/kent0106/gotools@master
 ```
 
 ## Working on the Go source distribution
@@ -56,7 +56,7 @@ Go `master` branch, so building gopls at tip minimizes the chances of
 a build failure.
 
 ```
-$ GO111MODULE=on gotip get golang.org/x/tools/gopls@master golang.org/x/tools@master
+$ GO111MODULE=on gotip get github.com/kent0106/gotools/gopls@master github.com/kent0106/gotools@master
 ```
 
 This will build a version of gopls that understands generic code. To actually

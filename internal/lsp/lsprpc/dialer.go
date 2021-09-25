@@ -13,7 +13,7 @@ import (
 	"time"
 
 	exec "golang.org/x/sys/execabs"
-	"golang.org/x/tools/internal/event"
+	"github.com/kent0106/gotools/internal/event"
 	errors "golang.org/x/xerrors"
 )
 

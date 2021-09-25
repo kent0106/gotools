@@ -14,10 +14,10 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/multichecker"
-	"golang.org/x/tools/go/analysis/passes/findcall"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kent0106/gotools/go/analysis"
+	"github.com/kent0106/gotools/go/analysis/multichecker"
+	"github.com/kent0106/gotools/go/analysis/passes/findcall"
+	"github.com/kent0106/gotools/internal/testenv"
 )
 
 func main() {

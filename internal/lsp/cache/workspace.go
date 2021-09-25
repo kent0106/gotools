@@ -14,11 +14,11 @@ import (
 	"sync"
 
 	"golang.org/x/mod/modfile"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/source"
-	workfile "golang.org/x/tools/internal/mod/modfile"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/lsp/source"
+	workfile "github.com/kent0106/gotools/internal/mod/modfile"
+	"github.com/kent0106/gotools/internal/span"
+	"github.com/kent0106/gotools/internal/xcontext"
 	errors "golang.org/x/xerrors"
 )
 

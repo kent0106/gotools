@@ -7,6 +7,6 @@
 
 package hooks
 
-import "golang.org/x/tools/internal/lsp/source"
+import "github.com/kent0106/gotools/internal/lsp/source"
 
 func updateAnalyzers(_ *source.Options) {}

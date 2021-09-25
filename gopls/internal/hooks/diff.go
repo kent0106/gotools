@@ -8,8 +8,8 @@ import (
 	"fmt"
 
 	"github.com/sergi/go-diff/diffmatchpatch"
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/span"
+	"github.com/kent0106/gotools/internal/lsp/diff"
+	"github.com/kent0106/gotools/internal/span"
 )
 
 func ComputeEdits(uri span.URI, before, after string) (edits []diff.TextEdit, err error) {

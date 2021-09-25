@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/buildutil"
+	"github.com/kent0106/gotools/go/buildutil"
 )
 
 func TestParseOverlayArchive(t *testing.T) {

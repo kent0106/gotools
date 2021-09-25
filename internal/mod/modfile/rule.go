@@ -29,7 +29,7 @@ import (
 
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/internal/mod/lazyregexp"
+	"github.com/kent0106/gotools/internal/mod/lazyregexp"
 )
 
 // A WorkFile is the parsed, interpreted form of a go.work file.

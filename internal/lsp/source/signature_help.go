@@ -10,9 +10,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/go/ast/astutil"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
 	errors "golang.org/x/xerrors"
 )
 

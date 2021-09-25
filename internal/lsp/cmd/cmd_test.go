@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	cmdtest "golang.org/x/tools/internal/lsp/cmd/test"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/testenv"
+	cmdtest "github.com/kent0106/gotools/internal/lsp/cmd/test"
+	"github.com/kent0106/gotools/internal/lsp/tests"
+	"github.com/kent0106/gotools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

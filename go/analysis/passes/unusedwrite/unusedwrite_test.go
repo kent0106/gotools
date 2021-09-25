@@ -7,8 +7,8 @@ package unusedwrite_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/unusedwrite"
+	"github.com/kent0106/gotools/go/analysis/analysistest"
+	"github.com/kent0106/gotools/go/analysis/passes/unusedwrite"
 )
 
 func Test(t *testing.T) {

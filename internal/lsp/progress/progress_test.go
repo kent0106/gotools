@@ -10,7 +10,7 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
 )
 
 type fakeClient struct {

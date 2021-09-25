@@ -11,8 +11,8 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/internal/analysisutil"
+	"github.com/kent0106/gotools/go/analysis"
+	"github.com/kent0106/gotools/go/analysis/passes/internal/analysisutil"
 )
 
 const Doc = "report assembly that clobbers the frame pointer before saving it"

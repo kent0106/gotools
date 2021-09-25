@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/fake"
-	. "golang.org/x/tools/internal/lsp/regtest"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kent0106/gotools/internal/lsp/fake"
+	. "github.com/kent0106/gotools/internal/lsp/regtest"
+	"github.com/kent0106/gotools/internal/testenv"
 )
 
 func TestHoverUnexported(t *testing.T) {

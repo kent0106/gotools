@@ -22,13 +22,13 @@ import (
 	"time"
 	"unicode"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/fuzzy"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/snippet"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/kent0106/gotools/go/ast/astutil"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/imports"
+	"github.com/kent0106/gotools/internal/lsp/fuzzy"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/lsp/snippet"
+	"github.com/kent0106/gotools/internal/lsp/source"
 	errors "golang.org/x/xerrors"
 )
 

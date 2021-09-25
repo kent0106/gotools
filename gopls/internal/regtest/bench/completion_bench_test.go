@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/regtest"
+	. "github.com/kent0106/gotools/internal/lsp/regtest"
 
-	"golang.org/x/tools/internal/lsp/fake"
+	"github.com/kent0106/gotools/internal/lsp/fake"
 )
 
 // dummyCompletionFunction to test manually configured completion using CLI.

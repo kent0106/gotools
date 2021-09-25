@@ -7,8 +7,8 @@ package loopclosure_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/loopclosure"
+	"github.com/kent0106/gotools/go/analysis/analysistest"
+	"github.com/kent0106/gotools/go/analysis/passes/loopclosure"
 )
 
 func Test(t *testing.T) {

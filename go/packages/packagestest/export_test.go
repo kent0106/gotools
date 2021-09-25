@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/tools/go/packages/packagestest"
+	"github.com/kent0106/gotools/go/packages/packagestest"
 )
 
 var testdata = []packagestest.Module{{

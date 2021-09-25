@@ -11,8 +11,8 @@ import (
 	"sort"
 	"testing"
 
-	"golang.org/x/tools/godoc/vfs"
-	"golang.org/x/tools/godoc/vfs/gatefs"
+	"github.com/kent0106/gotools/godoc/vfs"
+	"github.com/kent0106/gotools/godoc/vfs/gatefs"
 )
 
 func TestNewDirTree(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"errors"
 	"testing"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/keys"
+	"github.com/kent0106/gotools/internal/event"
+	"github.com/kent0106/gotools/internal/event/keys"
 )
 
 func TestEncodeMetric(t *testing.T) {

@@ -7,8 +7,8 @@ package hooks_test
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/internal/lsp/diff/difftest"
+	"github.com/kent0106/gotools/gopls/internal/hooks"
+	"github.com/kent0106/gotools/internal/lsp/diff/difftest"
 )
 
 func TestDiff(t *testing.T) {

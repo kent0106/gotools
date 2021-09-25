@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/regtest"
+	. "github.com/kent0106/gotools/internal/lsp/regtest"
 )
 
 // Test for golang/go#47564.

@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kent0106/gotools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

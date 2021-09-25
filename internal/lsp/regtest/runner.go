@@ -21,15 +21,15 @@ import (
 
 	exec "golang.org/x/sys/execabs"
 
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/jsonrpc2/servertest"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/lsprpc"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/kent0106/gotools/internal/jsonrpc2"
+	"github.com/kent0106/gotools/internal/jsonrpc2/servertest"
+	"github.com/kent0106/gotools/internal/lsp/cache"
+	"github.com/kent0106/gotools/internal/lsp/debug"
+	"github.com/kent0106/gotools/internal/lsp/fake"
+	"github.com/kent0106/gotools/internal/lsp/lsprpc"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/lsp/source"
+	"github.com/kent0106/gotools/internal/xcontext"
 )
 
 // Mode is a bitmask that defines for which execution modes a test should run.

@@ -21,15 +21,15 @@
 // and all concrete types are put into interfaces, it is sound to run on
 // partial programs, such as libraries without a main or test function.
 //
-package cha // import "golang.org/x/tools/go/callgraph/cha"
+package cha // import "github.com/kent0106/gotools/go/callgraph/cha"
 
 import (
 	"go/types"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/kent0106/gotools/go/callgraph"
+	"github.com/kent0106/gotools/go/ssa"
+	"github.com/kent0106/gotools/go/ssa/ssautil"
+	"github.com/kent0106/gotools/go/types/typeutil"
 )
 
 // CallGraph computes the call graph of the specified program using the

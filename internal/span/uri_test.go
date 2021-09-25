@@ -10,7 +10,7 @@ package span_test
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/span"
+	"github.com/kent0106/gotools/internal/span"
 )
 
 // TestURI tests the conversion between URIs and filenames. The test cases

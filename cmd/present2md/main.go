@@ -34,7 +34,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/tools/present"
+	"github.com/kent0106/gotools/present"
 )
 
 func usage() {

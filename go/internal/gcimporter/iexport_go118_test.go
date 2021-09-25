@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/internal/gcimporter"
+	"github.com/kent0106/gotools/go/internal/gcimporter"
 )
 
 func TestGenericExport(t *testing.T) {

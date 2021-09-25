@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kent0106/gotools/internal/lsp/command"
+	"github.com/kent0106/gotools/internal/lsp/protocol"
 
-	. "golang.org/x/tools/internal/lsp/regtest"
+	. "github.com/kent0106/gotools/internal/lsp/regtest"
 )
 
 func TestStartDebugging(t *testing.T) {

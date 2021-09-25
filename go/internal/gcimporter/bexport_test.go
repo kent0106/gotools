@@ -18,10 +18,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/internal/gcimporter"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kent0106/gotools/go/buildutil"
+	"github.com/kent0106/gotools/go/internal/gcimporter"
+	"github.com/kent0106/gotools/go/loader"
+	"github.com/kent0106/gotools/internal/typeparams"
 )
 
 var isRace = false

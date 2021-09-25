@@ -9,7 +9,7 @@ import (
 	"flag"
 	"fmt"
 
-	"golang.org/x/tools/internal/tool"
+	"github.com/kent0106/gotools/internal/tool"
 )
 
 // subcommands is a helper that may be embedded for commands that delegate to

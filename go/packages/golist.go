@@ -23,9 +23,9 @@ import (
 	"unicode"
 
 	exec "golang.org/x/sys/execabs"
-	"golang.org/x/tools/go/internal/packagesdriver"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/packagesinternal"
+	"github.com/kent0106/gotools/go/internal/packagesdriver"
+	"github.com/kent0106/gotools/internal/gocommand"
+	"github.com/kent0106/gotools/internal/packagesinternal"
 	"golang.org/x/xerrors"
 )
 

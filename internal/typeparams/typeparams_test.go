@@ -15,8 +15,8 @@ import (
 	"go/types"
 	"testing"
 
-	"golang.org/x/tools/internal/apidiff"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kent0106/gotools/internal/apidiff"
+	"github.com/kent0106/gotools/internal/testenv"
 )
 
 func TestAPIConsistency(t *testing.T) {
